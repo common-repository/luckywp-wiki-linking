@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-10-30 14:46+0300\n"
+"PO-Revision-Date: 2019-10-30 14:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/Admin.php:41 admin/Admin.php:103
+msgid "Settings"
+msgstr ""
+
+#: admin/Admin.php:42 admin/views/main/index.php:168
+msgid "Get Premium"
+msgstr ""
+
+#: admin/Admin.php:70 admin/Admin.php:92 admin/Admin.php:93
+#: admin/views/main/create.php:16 admin/views/main/index.php:22
+#: admin/views/main/update.php:17
+msgid "Wiki Linking"
+msgstr ""
+
+#: admin/Admin.php:102 admin/views/settings/index.php:7
+msgid "Wiki Linking Settings"
+msgstr ""
+
+#: admin/Admin.php:111 admin/Admin.php:112
+msgid "Updating Database"
+msgstr ""
+
+#: admin/Admin.php:133
+msgid "Sending…"
+msgstr ""
+
+#: admin/controllers/DbMigrateController.php:17
+msgid "Updating DB…"
+msgstr ""
+
+#: admin/controllers/DbMigrateController.php:19
+msgid "success"
+msgstr ""
+
+#: admin/controllers/DbMigrateController.php:20
+msgid "Go to the plugin"
+msgstr ""
+
+#: admin/controllers/MbPostGeneralController.php:82
+#: admin/forms/main/CreateForm.php:48 admin/views/main/index.php:28
+msgid "Adding more than 30 keyword phrases is available in the premium version"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:45 admin/forms/main/UpdateForm.php:68
+#: admin/forms/postKeyword/UpdateForm.php:49
+msgid "Keyword phrase already exists"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:97 admin/forms/main/UpdateForm.php:117
+msgid "Wrong post is selected"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:104 admin/forms/main/UpdateForm.php:124
+#: admin/forms/postKeyword/UpdateForm.php:59 admin/views/main/index.php:49
+#: admin/views/mbPostGeneral/keyword_update.php:13
+#: admin/views/mbPostGeneral/keyword_view.php:11
+#: admin/widgets/postGeneralMetabox/views/box.php:20
+msgid "Keyword phrase"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:105 admin/forms/main/UpdateForm.php:125
+msgid "Link type"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:106 admin/forms/main/UpdateForm.php:126
+msgid "Link"
+msgstr ""
+
+#: admin/forms/main/CreateForm.php:107 admin/forms/main/UpdateForm.php:127
+#: plugin/entities/ItemType.php:19
+msgid "Post"
+msgstr ""
+
+#: admin/forms/postKeyword/CreateForm.php:32
+msgid "Keyword phrases already exist"
+msgstr ""
+
+#: admin/forms/postKeyword/CreateForm.php:50
+msgid "Keyword phrases"
+msgstr ""
+
+#: admin/views/main/_begin.php:11
+msgid "Let's start!"
+msgstr ""
+
+#: admin/views/main/_begin.php:17
+#, php-format
+msgid "The %s plugin allows to realize internal linking on the website."
+msgstr ""
+
+#: admin/views/main/_begin.php:23
+msgid ""
+"You can add keyword phrases and the link address or a post to which the link "
+"has to be directed and the plugin places them in texts of posts."
+msgstr ""
+
+#: admin/views/main/_begin.php:26
+msgid ""
+"Please note that the link is displayed ONLY on the single page of a post, in "
+"all other places (RSS feed, the editor on the control panel and etc.) this "
+"link will NOT be displayed."
+msgstr ""
+
+#: admin/views/main/_begin.php:32
+msgid "When placing a link in a post, whole words are only taken into account."
+msgstr ""
+
+#: admin/views/main/_begin.php:36
+#, php-format
+msgid ""
+"For example, the link with the keyword phrase %s will be added to the text:"
+msgstr ""
+
+#: admin/views/main/_begin.php:45
+msgid "and the link will NOT be added to the text:"
+msgstr ""
+
+#: admin/views/main/_begin.php:54
+msgid ""
+"Maximum number of links placed in one post (the settings can be changed):"
+msgstr ""
+
+#: admin/views/main/_begin.php:69
+#, php-format
+msgid ""
+"Maximum number of links for a keyword phrase: %s (the settings can be "
+"changed)."
+msgstr ""
+
+#: admin/views/main/_begin.php:76
+msgid "Add the first keyword phrase"
+msgstr ""
+
+#: admin/views/main/_begin.php:81
+msgid "Change the settings"
+msgstr ""
+
+#: admin/views/main/_card.php:13
+msgid "hide"
+msgstr ""
+
+#: admin/views/main/_card.php:23
+msgid "Bind to posts"
+msgstr ""
+
+#: admin/views/main/_card.php:24 admin/views/main/index.php:97
+#: admin/widgets/postGeneralMetabox/views/box.php:45
+msgid "Edit"
+msgstr ""
+
+#: admin/views/main/_card.php:28 admin/views/main/delete.php:32
+#: admin/views/main/index.php:101
+#: admin/widgets/postGeneralMetabox/views/box.php:49
+msgid "Delete"
+msgstr ""
+
+#: admin/views/main/_card.php:43 admin/views/mbPostGeneral/keyword_view.php:26
+msgid "Keyword phrase isn't bound to any post"
+msgstr ""
+
+#: admin/views/main/bind_item_to_posts_success.php:10
+msgid "Keyword phrase is bound to posts!"
+msgstr ""
+
+#: admin/views/main/bind_item_to_posts_success.php:13
+#: admin/views/main/delete_success.php:12
+#: admin/views/mbPostGeneral/keyword_add_success.php:7
+#: admin/views/mbPostGeneral/keyword_update_success.php:7
+#: admin/views/mbPostGeneral/keyword_view.php:10
+#: admin/views/mbPostGeneral/keyword_view.php:32
+#: admin/widgets/premiumAlert/views/widget.php:16
+msgid "Close"
+msgstr ""
+
+#: admin/views/main/create.php:18 admin/views/main/create.php:20
+msgid "New Keyword Phrase"
+msgstr ""
+
+#: admin/views/main/create.php:86 admin/views/mbPostGeneral/keyword_add.php:46
+#: admin/widgets/postGeneralMetabox/views/box.php:57
+#: admin/widgets/postGeneralMetabox/views/box.php:62
+msgid "Add"
+msgstr ""
+
+#: admin/views/main/delete.php:12 admin/views/main/delete.php:24
+#: admin/views/mbPostGeneral/keyword_add.php:13
+#: admin/views/mbPostGeneral/keyword_add.php:43
+#: admin/views/mbPostGeneral/keyword_update.php:12
+#: admin/views/mbPostGeneral/keyword_update.php:47
+#: admin/widgets/selectPost/views/widget.php:32
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/main/delete.php:13
+msgid "Confirmation"
+msgstr ""
+
+#: admin/views/main/delete.php:17
+#, php-format
+msgid "Are you sure you want to delete the keyword phrase %s?"
+msgstr ""
+
+#: admin/views/main/delete_success.php:9 admin/views/main/index.php:39
+msgid "Keyword phrase removed"
+msgstr ""
+
+#: admin/views/main/index.php:25 admin/views/main/index.php:35
+msgid "Add Keyword Phrase"
+msgstr ""
+
+#: admin/views/main/index.php:51
+msgid "Links"
+msgstr ""
+
+#: admin/views/main/index.php:52
+msgid "Search by post ID, post name and custom link"
+msgstr ""
+
+#: admin/views/main/index.php:55
+#: admin/widgets/postGeneralMetabox/views/box.php:23
+msgid "Posts"
+msgstr ""
+
+#: admin/views/main/index.php:56
+#: admin/widgets/postGeneralMetabox/views/box.php:24
+msgid "Number of posts with displayed link"
+msgstr ""
+
+#: admin/views/main/index.php:108
+msgid "Nothing found."
+msgstr ""
+
+#: admin/views/main/index.php:135
+msgid ""
+"For getting more information on keyword phrase, select it from the list."
+msgstr ""
+
+#: admin/views/main/index.php:144
+msgid "Advantages of Premium Version"
+msgstr ""
+
+#: admin/views/main/index.php:148
+msgid "Unlimited number of keyword phrases"
+msgstr ""
+
+#: admin/views/main/index.php:151
+msgid "The possibility to place the links in the posts fully automatically"
+msgstr ""
+
+#: admin/views/main/index.php:153
+msgid ""
+"Links by keyword phrases will automatically be placed in posts, both when "
+"creating/changing keyword phrases themselves, and when creating/changing "
+"posts."
+msgstr ""
+
+#: admin/views/main/index.php:156
+msgid ""
+"The possibility to configure the access to the keyword phrases management by "
+"roles."
+msgstr ""
+
+#: admin/views/main/index.php:158
+msgid ""
+"For example, you can grant access to website users with the role \"Editor\"."
+msgstr ""
+
+#: admin/views/main/index.php:161
+msgid "1 year free updates"
+msgstr ""
+
+#: admin/views/main/index.php:164
+msgid "1 year premium support"
+msgstr ""
+
+#: admin/views/main/update.php:19 admin/views/main/update.php:21
+msgid "Edit Keyword Phrase"
+msgstr ""
+
+#: admin/views/main/update.php:56
+#: admin/views/mbPostGeneral/keyword_update.php:21
+msgid "Please note!"
+msgstr ""
+
+#: admin/views/main/update.php:58
+#: admin/views/mbPostGeneral/keyword_update.php:23
+msgid "If you change keyword phrase it will be unbound from all posts."
+msgstr ""
+
+#: admin/views/main/update.php:60
+#: admin/views/mbPostGeneral/keyword_update.php:25
+msgid "Don't forget to bind a keyword phrase to posts after saving."
+msgstr ""
+
+#: admin/views/main/update.php:103
+#: admin/views/mbPostGeneral/keyword_update.php:50
+msgid "Save"
+msgstr ""
+
+#: admin/views/mbPostGeneral/keyword_add.php:14
+msgid "New Keyword Phrases"
+msgstr ""
+
+#: admin/views/mbPostGeneral/keyword_add.php:23
+msgid "Enter new keyword phrases, one per line:"
+msgstr ""
+
+#: admin/views/mbPostGeneral/keyword_add_success.php:4
+msgid "Keyword phrases are successfully added!"
+msgstr ""
+
+#: admin/views/mbPostGeneral/keyword_update_success.php:4
+msgid "Keyword phrase are successfully updated!"
+msgstr ""
+
+#: admin/widgets/PremiumBadge.php:16
+msgid "Premium"
+msgstr ""
+
+#: admin/widgets/PremiumBadge.php:19
+msgid "It is available only in the premium version"
+msgstr ""
+
+#: admin/widgets/noticeDbMigrate/views/widget.php:11
+#, php-format
+msgid "The functionality of the %s plugin is limited. Links are not displayed!"
+msgstr ""
+
+#: admin/widgets/noticeDbMigrate/views/widget.php:16
+msgid "Need to update the database."
+msgstr ""
+
+#: admin/widgets/noticeDbMigrate/views/widget.php:18
+msgid "Update"
+msgstr ""
+
+#: admin/widgets/postGeneralMetabox/views/box.php:12
+msgid ""
+"In contents of other posts on the website the links to the current post with "
+"the specified keyword phrase will be displayed as the text of the link."
+msgstr ""
+
+#: admin/widgets/postGeneralMetabox/views/box.php:41
+msgid "Bind posts"
+msgstr ""
+
+#: admin/widgets/postGeneralMetabox/views/box.php:60
+msgid "There are no keyword phrases"
+msgstr ""
+
+#: admin/widgets/processBinding/views/widget.php:18
+msgid "Posts are being selected for the keyword phrase"
+msgstr ""
+
+#: admin/widgets/processBinding/views/widget.php:21
+msgid "This might take a few minutes."
+msgstr ""
+
+#: admin/widgets/processBinding/views/widget.php:23
+msgid "Please do not close the window until the end of the process."
+msgstr ""
+
+#: admin/widgets/selectPost/views/widget.php:18
+msgid "Select a post"
+msgstr ""
+
+#: admin/widgets/selectPost/views/widget.php:21
+msgid "Clear"
+msgstr ""
+
+#: admin/widgets/selectPost/views/widget.php:36
+msgid "Search for a post…"
+msgstr ""
+
+#: config/settings.php:12 config/settings.php:17
+msgid "General"
+msgstr ""
+
+#: config/settings.php:20
+msgid "Number of links to keyword phrase"
+msgstr ""
+
+#: config/settings.php:41
+msgid "Number of links in post"
+msgstr ""
+
+#: config/settings.php:47
+msgid "Automatic bunch of keyword phrases with posts to place the links"
+msgstr ""
+
+#: config/settings.php:51
+msgid "When publishing/changing the post"
+msgstr ""
+
+#: config/settings.php:56
+msgid "search for keyword phrases to place the link in this post"
+msgstr ""
+
+#: config/settings.php:61
+msgid "When creating/changing keyword phrase"
+msgstr ""
+
+#: config/settings.php:66
+msgid "search for posts to place the link by keyword phrase"
+msgstr ""
+
+#: config/settings.php:75
+msgid "Access settings"
+msgstr ""
+
+#: config/settings.php:79
+msgid "Full access to the linking management"
+msgstr ""
+
+#: core/admin/Controller.php:45
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: core/validators/RangeValidator.php:28
+msgid "{attribute} is invalid."
+msgstr ""
+
+#: core/validators/RequiredValidator.php:17
+msgid "{attribute} cannot be blank."
+msgstr ""
+
+#: core/validators/UrlValidator.php:26
+msgid "{attribute} is not a valid URL."
+msgstr ""
+
+#: luckywp-wiki-linking.php:35
+#, php-format
+msgid ""
+"%1$s and %2$s plugins cannot work at the same time. Deactivate one of them."
+msgstr ""
+
+#: plugin/Plugin.php:147
+msgid ""
+"The plugin allows to easily organize a linking in the wiki style on the "
+"website."
+msgstr ""
+
+#: plugin/entities/ItemType.php:18
+msgid "Custom link"
+msgstr ""
